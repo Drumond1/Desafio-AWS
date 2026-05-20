@@ -14,35 +14,40 @@ Este relatório apresenta o processo de implementação de ferramentas na empres
 
 `O projeto de implementação foi dividido em 3 etapas, cada uma com seus objetivos específicos:`
 
-### Etapa 1:
+###Etapa 1:
 
-**Nome da ferramenta:** Amazon S3 (Simple Storage Service)
+**Nome da ferramenta:**Amazon Web Services Amazon S3 (Simple Storage Service)
 
-**Foco da ferramenta:** Armazenamento de dados com alta durabilidade e baixo custo.
+**Foco da ferramenta:**Armazenamento escalável, seguro e de alta durabilidade para dados corporativos.
 
-**Descrição de caso de uso:**
-Atualmente, a empresa armazena dados em servidores locais, com alto custo de manutenção e risco de perda. Com o Amazon S3, todos os documentos administrativos, resultados laboratoriais e arquivos de pesquisa poderão ser migrados para a nuvem, garantindo durabilidade de 99,99%, escalabilidade automática e custo proporcional ao uso. Além disso, será possível utilizar políticas de arquivamento no S3 Glacier para reduzir ainda mais os custos com dados pouco acessados.
+**Descrição do caso de uso:**
+A Farmácia Mineira atualmente mantém seus arquivos e documentos em servidores locais, o que implica elevados custos operacionais, limitações de escalabilidade e maior exposição a falhas físicas. Com a adoção do Amazon S3, será possível centralizar o armazenamento de documentos administrativos, resultados laboratoriais e arquivos de pesquisa em um ambiente de nuvem altamente seguro e resiliente.
 
-### Etapa 2:
+O serviço oferece escalabilidade automática, elevada disponibilidade e cobrança baseada no consumo efetivo, proporcionando maior eficiência financeira. Além disso, a utilização de políticas inteligentes de arquivamento, como o S3 Glacier, permitirá a redução adicional de custos para dados de baixa frequência de acesso, mantendo conformidade e integridade das informações armazenadas.
 
-**Nome da ferramenta:** Amazon RDS (Relational Database Service)
+###Etapa 2
 
-**Foco da ferramenta:** Banco de dados gerenciado e otimizado.
+**Nome da ferramenta:**Amazon RDS (Relational Database Service)
 
-**Descrição de caso de uso:**
-A empresa utiliza servidores próprios para gerenciar bancos de dados internos, o que gera custos elevados com licenciamento, energia e administração. Com o Amazon RDS, a PharmaVida poderá migrar seus bancos de dados (como estoque, vendas e cadastros de clientes) para um ambiente totalmente gerenciado, sem necessidade de manutenção de hardware ou backup manual. O serviço traz alta disponibilidade, segurança e escalabilidade automática, permitindo pagar apenas pelo que é consumido.
+**Foco da ferramenta:**Gerenciamento otimizado de bancos de dados relacionais com alta disponibilidade.
 
+**Descrição do caso de uso:**
+Atualmente, a empresa depende de infraestrutura própria para hospedagem e gerenciamento de bancos de dados internos, gerando despesas significativas com hardware, licenciamento, suporte técnico e manutenção contínua. Com a implementação do Amazon RDS, os bancos de dados responsáveis por operações críticas — como controle de estoque, registros de vendas e cadastro de clientes — poderão ser migrados para um ambiente totalmente gerenciado pela AWS.
 
-### Etapa 3:
+A solução automatiza processos essenciais, incluindo backups, atualizações, monitoramento e recuperação de desastres, reduzindo a necessidade de administração manual. Além disso, o serviço proporciona maior segurança, escalabilidade sob demanda e alta disponibilidade, garantindo melhor desempenho operacional e otimização de custos através do modelo de pagamento conforme utilização.
 
-**Nome da ferramenta:** Amazon EC2 (Elastic Compute Cloud) com Auto Scaling
+###Etapa 3
 
-**Foco da ferramenta:** Hospedagem de sistemas corporativos com escalabilidade elástica.
+**Nome da ferramenta:**Amazon EC2 (Elastic Compute Cloud) com Auto Scaling
 
-Descrição de caso de uso:
-A empresa possui aplicações internas, como ERP e sistemas de controle de produção, que hoje funcionam em servidores físicos. Com o Amazon EC2, esses sistemas poderão ser migrados para máquinas virtuais na nuvem, com capacidade de ajuste automático de recursos através do Auto Scaling. Assim, nos horários de pico, a infraestrutura será expandida automaticamente, e em horários de baixa demanda, será reduzida — diminuindo os custos operacionais e garantindo desempenho ideal.
+**Foco da ferramenta:**Infraestrutura computacional elástica para aplicações corporativas.
 
+**Descrição do caso de uso:**
+Os sistemas corporativos da Farmácia Mineira, incluindo ERP e plataformas internas de controle operacional, atualmente executam em servidores físicos com capacidade limitada e alto custo de manutenção. Com a migração para o Amazon EC2, essas aplicações passarão a operar em máquinas virtuais escaláveis e configuráveis conforme a necessidade do negócio.
 
+A integração com o recurso Auto Scaling permitirá o ajuste automático da capacidade computacional de acordo com a demanda de utilização. Em períodos de maior acesso, novos recursos serão provisionados automaticamente para manter a performance dos sistemas. Já em momentos de baixa demanda, os recursos serão reduzidos, promovendo maior eficiência operacional e significativa redução de custos com infraestrutura.
+
+Além da flexibilidade operacional, a solução proporciona maior disponibilidade, tolerância a falhas e rapidez na expansão do ambiente tecnológico da empresa.
 ## Conclusão
 
 ### A implementação das ferramentas na empresa Farmácia Mineira permitirá:
@@ -89,3 +94,6 @@ A tabela abaixo apresenta uma análise comparativa dos custos anuais entre a inf
 - [Amazon EC2](https://docs.aws.amazon.com/pt_br/ec2/index.html)
 
 ---
+## 👤 Autor
+
+Desenvolvido por **Vinicius Drumond**.
