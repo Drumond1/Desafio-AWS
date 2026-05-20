@@ -14,33 +14,33 @@ Este relatório apresenta o processo de implementação de ferramentas na empres
 
 `O projeto de implementação foi dividido em 3 etapas, cada uma com seus objetivos específicos:`
 
-###Etapa 1:
+### Etapa 1:
 
-**Nome da ferramenta:**Amazon Web Services Amazon S3 (Simple Storage Service)
+**Nome da ferramenta:** Amazon Web Services Amazon S3 (Simple Storage Service)
 
-**Foco da ferramenta:**Armazenamento escalável, seguro e de alta durabilidade para dados corporativos.
+**Foco da ferramenta:** Armazenamento escalável, seguro e de alta durabilidade para dados corporativos.
 
 **Descrição do caso de uso:**
 A Farmácia Mineira atualmente mantém seus arquivos e documentos em servidores locais, o que implica elevados custos operacionais, limitações de escalabilidade e maior exposição a falhas físicas. Com a adoção do Amazon S3, será possível centralizar o armazenamento de documentos administrativos, resultados laboratoriais e arquivos de pesquisa em um ambiente de nuvem altamente seguro e resiliente.
 
 O serviço oferece escalabilidade automática, elevada disponibilidade e cobrança baseada no consumo efetivo, proporcionando maior eficiência financeira. Além disso, a utilização de políticas inteligentes de arquivamento, como o S3 Glacier, permitirá a redução adicional de custos para dados de baixa frequência de acesso, mantendo conformidade e integridade das informações armazenadas.
 
-###Etapa 2
+### Etapa 2
 
-**Nome da ferramenta:**Amazon RDS (Relational Database Service)
+**Nome da ferramenta:** Amazon RDS (Relational Database Service)
 
-**Foco da ferramenta:**Gerenciamento otimizado de bancos de dados relacionais com alta disponibilidade.
+**Foco da ferramenta:** Gerenciamento otimizado de bancos de dados relacionais com alta disponibilidade.
 
 **Descrição do caso de uso:**
 Atualmente, a empresa depende de infraestrutura própria para hospedagem e gerenciamento de bancos de dados internos, gerando despesas significativas com hardware, licenciamento, suporte técnico e manutenção contínua. Com a implementação do Amazon RDS, os bancos de dados responsáveis por operações críticas — como controle de estoque, registros de vendas e cadastro de clientes — poderão ser migrados para um ambiente totalmente gerenciado pela AWS.
 
 A solução automatiza processos essenciais, incluindo backups, atualizações, monitoramento e recuperação de desastres, reduzindo a necessidade de administração manual. Além disso, o serviço proporciona maior segurança, escalabilidade sob demanda e alta disponibilidade, garantindo melhor desempenho operacional e otimização de custos através do modelo de pagamento conforme utilização.
 
-###Etapa 3
+### Etapa 3
 
-**Nome da ferramenta:**Amazon EC2 (Elastic Compute Cloud) com Auto Scaling
+**Nome da ferramenta:** Amazon EC2 (Elastic Compute Cloud) com Auto Scaling
 
-**Foco da ferramenta:**Infraestrutura computacional elástica para aplicações corporativas.
+**Foco da ferramenta:** Infraestrutura computacional elástica para aplicações corporativas.
 
 **Descrição do caso de uso:**
 Os sistemas corporativos da Farmácia Mineira, incluindo ERP e plataformas internas de controle operacional, atualmente executam em servidores físicos com capacidade limitada e alto custo de manutenção. Com a migração para o Amazon EC2, essas aplicações passarão a operar em máquinas virtuais escaláveis e configuráveis conforme a necessidade do negócio.
